@@ -1,0 +1,114 @@
+/*--------------------------------------------------------------
+    Utilities
+--------------------------------------------------------------*/
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.cl_spinner {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    &::after {
+        display: table;
+        clear: both;
+        content: " ";
+    }
+    label {
+        flex: 1;
+        .type {
+            display: block;
+            font-weight: bold;
+        }
+    }
+    .spinner {
+        display: flex;
+    }
+    .minus, .plus {
+        background: none;
+        border: none;
+        outline: none;
+        font-size: 28px;
+        color: $secondary;
+        transition: .5s ease all;
+        &:hover {
+            color: $primary;
+        }
+    }
+    .quantity {
+        max-width: 40px;
+        padding: 7px 10px !important;
+        text-align: center;
+        border-bottom: none;
+    }
+}
+
+.alert {
+    &.cl_alert__main {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        margin: 0;
+        padding: 2rem;
+        text-align: center;
+        border-radius: 0;
+        transition: .5s ease all;
+    }
+}
+
+.panel {
+    margin: 10px 0;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 2px;
+    overflow: hidden;
+    .panel-header {
+        padding: .7rem 1rem;
+        background: #eee;
+        border-bottom: 1px solid rgba(0, 0, 0, .2);
+    }
+    .panel-body {
+        padding: .7rem 1rem;
+    }
+}
+
+.card {
+    &.card-push {
+        margin: 0 0 1rem;
+    }
+    .card {
+        box-shadow: none;
+        border: 1px solid rgba(0, 0, 0, .12);
+    }
+}
+
+.floating-label {
+    margin: 0 0 1rem;
+}
+
+.form-control {
+    &:disabled {
+        background: rgba(0, 0, 0, .07);
+        padding-left: .375rem;
+    }
+}
+
+.flex {
+    &.flex-center {
+        align-self: center;
+        align-items: center;
+    }
+}
+
+.btn-group-toggle__open {
+    .close {
+        position: absolute;
+        top: 0.3rem;
+        right: 0.3rem;
+        font-size: 0.5rem;
+    }
+}

@@ -1,0 +1,51 @@
+/***
+    Member Portal
+*/
+#cl_member {
+    .cl_member__avatar {
+        position: relative;
+        display: block;
+        width: 100%;
+        overflow: hidden;
+        border-radius: 3px;
+        &:hover {
+            a {
+                opacity: 1;
+            }
+        }
+        img {
+            width: auto !important;
+            height: auto !important;
+            max-width: 100% !important;
+            max-height: 100% !important;
+        }
+        a {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, .2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            opacity: 0;
+            transition: .5s ease all;
+        }
+    }
+    #cl_member__credit {
+        .cl_member__credit-amounts {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            .btn {
+                margin: .375rem;
+            }
+        }
+        .cl_member__credit-total {
+            margin: 1rem 0 0;
+            font-weight: bold;
+        }
+    }
+}
