@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Urbnsurf - Member Portal</title>
+    
+    <meta charset="utf-8">
+    <meta content="initial-scale=1, shrink-to-fit=no, width=device-width" name="viewport">
+
+    <!-- CSS -->
+    <!-- Material + Bootstrap -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i|Roboto+Mono:300,400,700|Roboto+Slab:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="../css/material/material.min.css" rel="stylesheet">
+    <!--<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">-->
+    
+    <!-- Urbnsurf -->
+    <link href="../css/urbnsurf/urbn_template.min.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <img src="../img/urbnsurf_logo.png" alt="" class="logo" />
+            <!-- Navigation -->
+            <nav>
+                <span class="nav-toggle">
+                    <i class="fa fa-bars"></i>
+                </span>
+                <span class="cart-toggle has-badge" data-count="2">
+                    <i class="fa fa-shopping-cart"></i>
+                </span>
+                <ul class="nav nav-pills justify-content-end">
+                    <button class="close btn-light btn-float btn-sm" type="button"><i class="material-icons">close</i></button>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Shop</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Gift Vouchers</a>
+                            <a class="dropdown-item" href="#">Memberships</a>
+                            <a class="dropdown-item" href="#">Multipacks</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Events</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Members</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Events</a>
+                    </li>
+                    <li class="nav-logout">
+                        <a class="btn btn-outline-primary" href="../main.html">Logout</a>
+                    </li>
+                    <li class="nav-book_now">
+                        <a class="btn btn-primary" href="#">Book Now</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="cl_member">
+        <div class="cl_masthead text-center">
+            <h1>My Dashboard</h1>
+        </div>
+        <section class="container">
+            <main id="cl_member__dashboard">
+                <div class="row">
+                    <div class="col-md-8">
+                        <!-- Member Details -->
+                        <div class="card card-push">
+                            <div class="card-header">
+                                Hi John
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <span class="cl_member__avatar">
+                                            <img class="img-thumbnail" alt="member avatar" src="../img/avatar-placeholder.png">
+                                        </span>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <h4>50 Club Membership <span class="cl_member__number">#111111</span> <i class="fa fa-info-circle" data-toggle="tooltip" title="" data-original-title="This is your unique Urbnsurf Membership number"></i></h4>
+                                        <dl class="row">
+                                            <dt class="col-4">Name</dt>
+                                            <dd class="col-8">John Smith</dd>
+                                            <dt class="col-4">Email</dt>
+                                            <dd class="col-8">johnysurfs@me.com</dd>
+                                            <dt class="col-4">Phone</dt>
+                                            <dd class="col-8">0444 444 444</dd>
+                                            <dt class="col-4">Urbn Local</dt>
+                                            <dd class="col-8">Melbourne</dd>
+                                        </dl>
+                                    </div>
+                                    <div class="col-sm-3 align-self-center text-right">
+                                        <a href="edit_details.html" class="btn btn-primary">edit</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- My Credit -->
+                        <div class="card card-push">
+                            <div class="card-header">
+                                My Credit
+                            </div>
+                            <div class="card-body">
+                                <div class="row mb-3">
+                                    <div class="col-sm-9">
+                                        <h4>$0.00</h4>
+                                    </div>
+                                    <div class="col-sm-3 text-right">
+                                        <a href="buy_credit.html" class="btn btn-primary">buy credit</a>
+                                    </div>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <strong>My RFID #1</strong>
+                                            </div>
+                                            <div class="col-sm-6 text-right">
+                                                <span class="badge badge-primary badge-pill">123456789</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <strong>My RFID #2</strong>
+                                            </div>
+                                            <div class="col-sm-6 text-right">
+                                                <span class="badge badge-primary badge-pill">9876BD5652</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-footer bg-light">
+                                <div class="row">
+                                    <div class="col-sm-9">
+                                        <p>Add or edit RFID</p>
+                                    </div>
+                                    <div class="col-sm-3 text-right">
+                                        <a href="edit_rfid.html" class="btn btn-primary">edit RFID</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Payment Details -->
+                        <div class="card card-push">
+                            <div class="card-header">
+                                Payment Details
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-sm-9">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <strong>Card Type:</strong>
+                                                <br>Mastercard
+                                            </div>
+                                            <div class="col-4">
+                                                <strong>Card Number:</strong>
+                                                <br>**** **** **** **12
+                                            </div>
+                                            <div class="col-5">
+                                                <strong>Card Holder:</strong>
+                                                <br>Mr John Smith
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 text-right">
+                                        <a href="#" class="btn btn-primary">edit</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="cl_member__linked">
+                            <div class="card card-push">
+                                <div class="card-header">
+                                    Linked Accounts
+                                </div>
+                                <div class="card-body">
+                                    <div class="row mb-2">
+                                        <div class="col-7 align-self-center">
+                                            Jane Smith
+                                        </div>
+                                        <div class="col-5 text-right">
+                                            <div class="btn btn-outline-danger">remove</div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-2">
+                                        <div class="col-7 align-self-center">
+                                            Jimmy Smith
+                                        </div>
+                                        <div class="col-5 text-right">
+                                            <div class="btn btn-outline-danger">remove</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer bg-light">
+                                    <p>Find Friends &amp; Family:</p>
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <div class="floating-label">
+                                                <label for="exampleFloatingLabel1">search by email</label>
+                                                <input aria-describedby="exampleFloatingLabel1Help" class="form-control" id="exampleFloatingLabel1" placeholder="Enter member email" type="text">
+                                            </div>
+                                        </div>
+                                        <div  class="col-5 text-right">
+                                            <a href="#" class="btn btn-primary">invite</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cl_member__links">
+                            <a href="../flow-surf/index.html" class="btn btn-secondary btn-block btn-lg">Book Session</a>
+                            <a href="../flow-surf/index.html" class="btn btn-secondary btn-block btn-lg">Redeem Multi</a>
+                            <a href="#" class="btn btn-secondary btn-block btn-lg">My Bookings</a>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </section>
+    </section>
+
+
+    
+    <!-- Login Modal -->
+    <div class="modal fade" id="urbn_login-modal" tabindex="-1" role="dialog" aria-labelledby="urbn-modal-title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="urbn-modal-title">Member Login</h5>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <div class="floating-label">
+                                        <label for="loginEmail">Email</label>
+                                        <input aria-describedby="loginEmailHelp" class="form-control" id="loginEmail" placeholder="Enter email" type="text">
+                                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                    </div>                                    
+                                </div>
+                                <div class="form-group">
+                                    <div class="floating-label">
+                                        <label for="loginPassword">Password</label>
+                                        <input aria-describedby="loginEmailHelp" class="form-control" id="loginPassword" placeholder="Enter Password" type="text">
+                                    </div>
+                                </div>
+                                <!--<div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">remember me</label>
+                                </div>-->
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="urbn-modal-title">Sign Up</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Sign up with Urbnsurf today to experience all the benefits of our Membership programs, including free sessions and discount on food and hire.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="text-right">
+                            <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Forgot Password?</button>
+                            <form action="member-portal/index.html">                                 <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Forgot Password?</button>                                 <button type="submit" class="btn btn-primary">Login</button>                             </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="text-right">
+                            <button type="button" class="btn btn-primary">Sign Up Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="../js/external/jquery-3.3.1.slim.min.js"></script>
+    <script src="../js/external/popper.min.js"></script>
+    <script src="../js/external/bootstrap.min.js"></script>
+
+    <script src="../js/material/material.min.js"></script>
+
+    <!-- Urbnsurf -->
+    <script src="../js/urbnsurf/urbn_template.js"></script>
+  </body>
+</html>

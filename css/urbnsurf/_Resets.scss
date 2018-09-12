@@ -1,0 +1,119 @@
+//  Steppers
+.stepper-horiz {
+    justify-content: center;
+    margin: 1rem 0 2rem;
+    counter-reset: stepper;
+    &::before {
+        border-top: none;
+    }
+    .stepper {
+        flex: 1;
+        justify-content: center;
+        counter-increment: stepper;
+        pointer-events: none;
+        text-decoration: none;
+        &::before, &::after {
+            border-top: none;
+        }
+        .stepper-icon {
+            &::before {
+                content: counter(stepper);
+            }
+        }
+        &.done {
+            pointer-events: all;
+            &:hover {
+                background: $primary;
+                color: #fff;
+                .stepper-text {
+                    color: inherit;
+                }
+            }
+            .stepper-icon {
+                &::before {
+                    font-family: 'Material Icons';
+                    font-weight: bold;
+                    content: "check";
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .stepper-horiz {
+        justify-content: flex-start;
+        .stepper {
+            flex: none;
+        }
+    }
+}
+
+//  Buttons
+.dropdown-toggle {
+    &::after {
+        margin-top: 3px;
+    }
+}
+.dropdown-menu {
+    padding: 0;
+    font-size: inherit;
+}
+.dropdown-divider {
+    margin: 0;
+}
+@media screen and (max-width: 1200px) {
+    .dropdown-menu {
+        position: relative !important;
+        margin: 0 0 10px;
+        padding: 0;
+        transform: none !important;
+        &::before {
+            box-shadow: none;
+            border: 1px solid rgba(0, 0, 0, .1);
+        }
+    }
+}
+
+.btn {
+    &:not(.btn-block) + .btn {
+        margin-left: 2rem;
+    }
+    &[class*="btn-outline"] {
+        border: 1px solid;
+        transition: .3s ease all;
+        &:hover {
+            background-image: none;
+        }
+        &:active {
+            background-color: rgba(0, 0, 0, .1);
+        }
+    }
+    &.btn-outline-primary {
+        color: $primary;
+    }
+    &.btn-outline-secondary {
+        color: $secondary;
+    }
+    &.btn-primary {
+        background-color: $primary;
+    }
+    &.btn-secondary {
+        background-color: $secondary;
+    }
+}
+
+//  Forms and Inputs
+textarea.form-control:not([rows="1"]) {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0;
+    &:hover, &:active, &:focus {
+        box-shadow: none;
+    }
+}
+
+//  Modals
+.modal-content {
+    padding: 0 2rem 2rem;
+}

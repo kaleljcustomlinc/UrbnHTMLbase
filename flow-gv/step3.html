@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Urbnsurf - Gift Vouchers</title>
+    
+    <meta charset="utf-8">
+    <meta content="initial-scale=1, shrink-to-fit=no, width=device-width" name="viewport">
+
+    <!-- CSS -->
+    <!-- Material + Bootstrap -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i|Roboto+Mono:300,400,700|Roboto+Slab:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="../css/material/material.min.css" rel="stylesheet">
+    <!--<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">-->
+    
+    <!-- Urbnsurf -->
+    <link href="../css/urbnsurf/urbn_template.min.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <img src="../img/urbnsurf_logo.png" alt="" class="logo" />
+            <!-- Navigation -->
+            <nav>
+                <span class="nav-toggle">
+                    <i class="fa fa-bars"></i>
+                </span>
+                <span class="cart-toggle has-badge" data-count="2">
+                    <i class="fa fa-shopping-cart"></i>
+                </span>
+                <ul class="nav nav-pills justify-content-end">
+                    <button class="close btn-light btn-float btn-sm" type="button"><i class="material-icons">close</i></button>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Shop</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Gift Vouchers</a>
+                            <a class="dropdown-item" href="#">Memberships</a>
+                            <a class="dropdown-item" href="#">Multipacks</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Events</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Members</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Events</a>
+                    </li>
+                    <li class="nav-login">
+                        <a class="btn btn-outline-primary" href="#" data-toggle="modal" data-target="#urbn_login-modal">Login</a>
+                    </li>
+                    <li class="nav-book_now">
+                        <a class="btn btn-primary" href="#">Book Now</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="cl_wrap">
+        <main id="cl_book">
+            <div class="container">
+                <nav class="stepper-horiz">
+                    <a href="index.html" class="stepper done">
+                        <div class="stepper-icon"></div>
+                        <span class="stepper-text">Products</span>
+                    </a>
+                    <a href="step2.html" class="stepper done">
+                        <div class="stepper-icon"></div>
+                        <span class="stepper-text">Details</span>
+                    </a>
+                    <a href="step3.html" class="stepper active">
+                        <div class="stepper-icon"></div>
+                        <span class="stepper-text">Checkout</span>
+                    </a>
+                </nav>
+
+                <div class="cl_checkout">
+                    <div class="row">
+                        <div class="col-md-6 cl_checkout__billing">
+                            <h2>Billing Details</h2>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="floating-label">
+                                            <label for="exampleFloatingLabel1">First Name *</label>
+                                            <input aria-describedby="exampleFloatingLabel1Help" class="form-control" id="exampleFloatingLabel1" placeholder="Enter your First Name" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="floating-label">
+                                            <label for="exampleFloatingLabel1">Last Name *</label>
+                                            <input aria-describedby="exampleFloatingLabel1Help" class="form-control" id="exampleFloatingLabel1" placeholder="Enter your Last Name" type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="floating-label">
+                                            <label for="exampleFloatingLabel1">Email *</label>
+                                            <input aria-describedby="exampleFloatingLabel1Help" class="form-control" id="exampleFloatingLabel1" placeholder="Enter your Email" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="floating-label">
+                                            <label for="exampleFloatingLabel1">Contact Phone *</label>
+                                            <input aria-describedby="exampleFloatingLabel1Help" class="form-control" id="exampleFloatingLabel1" placeholder="Enter your Contact Phone" type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <div class="floating-label">
+                                                <label for="exampleFloatingLabel3">Country</label>
+                                                <select class="form-control" id="exampleFloatingLabel3">
+                                                <option label=" "></option>
+                                                <option>Australia</option>
+                                                <option>New Zealand</option>
+                                                <option>etc.</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <div class="floating-label">
+                                                <label for="exampleFloatingLabel3">How did you hear about us?</label>
+                                                <select class="form-control" id="exampleFloatingLabel3">
+                                                <option label=" "></option>
+                                                <option>Referral</option>
+                                                <option>Google Search</option>
+                                                <option>Online Ad</option>
+                                                <option>TV Ad</option>
+                                                <option>Travel Agent</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="tandc__check">
+                                            <label class="form-check-label" for="tandc__check">
+                                                I agree to the Urbnsurf booking <a href="#">Terms &amp; Conditions</a>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="mailing__check" checked>
+                                            <label class="form-check-label" for="mailing__check">
+                                                I would like to join the Urbnsurf mailing list to receive the latest updates and news
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 cl_checkout__payment">
+                            <h2>Select Payment Method</h2>
+                            <div class="cl_checkout__payment__opts btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-outline-primary">
+                                    <input type="radio" name="options" id="visa" autocomplete="off">
+                                    <img src="../img/logos/payment/visa.png" alt="" class="img-fluid">
+                                </label>
+                                <label class="btn btn-outline-primary">
+                                    <input type="radio" name="options" id="mastercard" autocomplete="off">
+                                    <img src="../img/logos/payment/mastercard.png" alt="" class="img-fluid">
+                                </label>
+                                <label class="btn btn-outline-primary">
+                                    <input type="radio" name="options" id="amex" autocomplete="off">
+                                    <img src="../img/logos/payment/amex.svg" alt="" class="img-fluid">
+                                </label>
+                                <label class="btn btn-outline-primary">
+                                    <input type="radio" name="options" id="jcb" autocomplete="off">
+                                    <img src="../img/logos/payment/jcb.png" alt="" class="img-fluid">
+                                </label>
+                                <label class="btn btn-outline-primary">
+                                    <input type="radio" name="options" id="paypal" autocomplete="off">
+                                    <img src="../img/logos/payment/paypal.png" alt="" class="img-fluid">
+                                </label>
+                                <label class="btn btn-outline-primary">
+                                    <input type="radio" name="options" id="unionpay" autocomplete="off">
+                                    <img src="../img/logos/payment/unionpay.png" alt="" class="img-fluid">
+                                </label>
+                                <label class="btn btn-outline-primary">
+                                    <input type="radio" name="options" id="alipay" autocomplete="off">
+                                    <img src="../img/logos/payment/alipay.png" alt="" class="img-fluid">
+                                </label>
+                            </div>
+                            <div class="cl_checkout__payment__promos">
+                                <div id="accordionPromo">
+                                    <div class="expansion-panel">
+                                        <a aria-controls="collapseOne" aria-expanded="false" class="expansion-panel-toggler collapsed" data-toggle="collapse" href="#collapseOne" id="headingOne">
+                                        I have a promo code
+                                        <div class="expansion-panel-icon ml-3 text-black-secondary">
+                                            <i class="collapsed-show material-icons">keyboard_arrow_down</i>
+                                            <i class="collapsed-hide material-icons">keyboard_arrow_up</i>
+                                        </div>
+                                        </a>
+                                        <div aria-labelledby="headingOne" class="collapse" data-parent="#accordionOne" id="collapseOne">
+                                            <div class="expansion-panel-body">
+                                                <div class="floating-label">
+                                                    <label for="exampleFloatingLabel1">Enter your Promo Code</label>
+                                                    <input aria-describedby="exampleFloatingLabel1Help" class="form-control" id="exampleFloatingLabel1" placeholder="eg. US00012345" type="text">
+                                                </div>
+                                                <button class="btn btn-outline-primary float-right">Submit Promo</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cl_checkout__payment__total">
+                                <h5>Amount Payable: <span class="total">$150.00</span></h5>
+                            </div>
+                            <div class="cl_checkout__payment__inline">
+                                <p>Enter your Credit Card Details <i class="fa fa-info-circle" data-toggle="tooltip" title="Your payment information will be processed securely and will not be stored by Urbnsurf"></i></p>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="floating-label">
+                                            <label for="exampleFloatingLabel1">Cardholder Name</label>
+                                            <input aria-describedby="exampleFloatingLabel1Help" class="form-control" id="exampleFloatingLabel1" placeholder="" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="floating-label">
+                                            <label for="exampleFloatingLabel1">Card Number</label>
+                                            <input aria-describedby="exampleFloatingLabel1Help" class="form-control" id="exampleFloatingLabel1" placeholder="" type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <div class="floating-label">
+                                                <label for="exampleFloatingLabel3">Exp Month</label>
+                                                <select class="form-control" id="exampleFloatingLabel3">
+                                                <option label=" "></option>
+                                                <option>01</option>
+                                                <option>02</option>
+                                                <option>03</option>
+                                                <option>04</option>
+                                                <option>05</option>
+                                                <option>06</option>
+                                                <option>07</option>
+                                                <option>08</option>
+                                                <option>09</option>
+                                                <option>10</option>
+                                                <option>11</option>
+                                                <option>12</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <div class="floating-label">
+                                                <label for="exampleFloatingLabel3">Exp Year</label>
+                                                <select class="form-control" id="exampleFloatingLabel3">
+                                                <option label=" "></option>
+                                                <option>2018</option>
+                                                <option>2019</option>
+                                                <option>2020</option>
+                                                <option>2021</option>
+                                                <option>2022</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="floating-label">
+                                            <label for="exampleFloatingLabel1">CVV <i class="fa fa-info-circle" data-toggle="tooltip" title="Located on back of card"></i></label>
+                                            <input aria-describedby="exampleFloatingLabel1Help" class="form-control" id="exampleFloatingLabel1" placeholder="" type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="cl_book__actions">
+                    <a href="step2.html" class="btn btn-outline-primary btn-lg"><i class="fa fa-chevron-circle-left"></i> back</a>
+                    <a href="#" class="cl_book__actions__inline btn btn-success btn-lg"><i class="fa fa-lock" style="margin-right: 1rem;"></i> confirm payment <i class="fa fa-chevron-circle-right"></i></a>
+                    <a href="#" class="btn btn-primary btn-lg">proceed to payment <i class="fa fa-chevron-circle-right"></i></a>
+                </div>
+
+            </div>
+        </main>
+        <aside id="cl_cart">
+            <button class="close btn-light btn-float btn-sm" type="button"><i class="material-icons">close</i></button>
+            <div class="cl_cart__items">
+                <h2 class="text-center">Cart</h2>
+                <div class="card">
+                    <div class="card-header">
+                    $50 Gift Voucher
+                    </div>
+                    <div class="card-body">
+                        <div class="">
+                            <strong>$50.00</strong>
+                        </div>
+                        <div class="cl_spinner form-group">
+                            <div class="spinner">
+                                <button class="minus fa fa-minus-square"></button>
+                                <input type="text" class="quantity form-control" id="returning" aria-describedby="" placeholder="">
+                                <button class="plus fa fa-plus-square"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    $100 Gift Voucher
+                    </div>
+                    <div class="card-body">
+                        <div class="">
+                            <strong>$100.00</strong>
+                        </div>
+                        <div class="cl_spinner form-group">
+                            <div class="spinner">
+                                <button class="minus fa fa-minus-square"></button>
+                                <input type="text" class="quantity form-control" id="returning" aria-describedby="" placeholder="">
+                                <button class="plus fa fa-plus-square"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cl_cart__total row">
+                    <div class="col-6">
+                        Total
+                    </div>
+                    <div class="col-6 text-right">
+                        $150
+                    </div>
+                </div>
+            </div>
+            <div class="cl_cart__help">
+                <a href="#"><i class="fa fa-question-circle"></i> Booking Help &amp; FAQ</a>
+            </div>
+        </aside>
+    </section>
+
+
+    <!-- Floating Main Alert -->
+    <div class="cl_alert__main alert alert-danger alert-dismissible fade show" role="alert">
+        <strong>Please note</strong> General messages and page warnings can go here
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="urbn_login-modal" tabindex="-1" role="dialog" aria-labelledby="urbn-modal-title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="urbn-modal-title">Member Login</h5>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <div class="floating-label">
+                                        <label for="loginEmail">Email</label>
+                                        <input aria-describedby="loginEmailHelp" class="form-control" id="loginEmail" placeholder="Enter email" type="text">
+                                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                    </div>                                    
+                                </div>
+                                <div class="form-group">
+                                    <div class="floating-label">
+                                        <label for="loginPassword">Password</label>
+                                        <input aria-describedby="loginEmailHelp" class="form-control" id="loginPassword" placeholder="Enter Password" type="text">
+                                    </div>
+                                </div>
+                                <!--<div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">remember me</label>
+                                </div>-->
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="urbn-modal-title">Sign Up</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Sign up with Urbnsurf today to experience all the benefits of our Membership programs, including free sessions and discount on food and hire.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="text-right">
+                            <form action="../member-portal/index.html">
+                                <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Forgot Password?</button>
+                                <button type="submit" class="btn btn-primary">Login</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="text-right">
+                            <button type="button" class="btn btn-primary">Sign Up Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+    <script src="../js/material/material.min.js"></script>
+
+    <!-- Urbnsurf -->
+    <script src="../js/urbnsurf/urbn_template.js"></script>
+  </body>
+</html>

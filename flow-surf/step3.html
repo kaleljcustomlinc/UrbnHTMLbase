@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Urbnsurf - Surf/Learn</title>
+    
+    <meta charset="utf-8">
+    <meta content="initial-scale=1, shrink-to-fit=no, width=device-width" name="viewport">
+
+    <!-- CSS -->
+    <!-- Material + Bootstrap -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i|Roboto+Mono:300,400,700|Roboto+Slab:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="../css/material/material.min.css" rel="stylesheet">
+    <!--<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">-->
+    
+    <!-- Urbnsurf -->
+    <link href="../css/urbnsurf/urbn_template.min.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <img src="../img/urbnsurf_logo.png" alt="" class="logo" />
+            <!-- Navigation -->
+            <nav>
+                <span class="nav-toggle">
+                    <i class="fa fa-bars"></i>
+                </span>
+                <span class="cart-toggle has-badge" data-count="2">
+                    <i class="fa fa-shopping-cart"></i>
+                </span>
+                <ul class="nav nav-pills justify-content-end">
+                    <button class="close btn-light btn-float btn-sm" type="button"><i class="material-icons">close</i></button>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Shop</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Gift Vouchers</a>
+                            <a class="dropdown-item" href="#">Memberships</a>
+                            <a class="dropdown-item" href="#">Multipacks</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Events</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Members</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Events</a>
+                    </li>
+                    <li class="nav-login">
+                        <a class="btn btn-outline-primary" href="#" data-toggle="modal" data-target="#urbn_login-modal">Login</a>
+                    </li>
+                    <li class="nav-book_now">
+                        <a class="btn btn-primary" href="#">Book Now</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="cl_wrap">
+        <main id="cl_book">
+            <div class="container">
+                <nav class="stepper-horiz">
+                    <div class="cl_session__date">
+                        <div class="floating-label">
+                            <label for="date">Date</label>
+                            <input aria-describedby="exampleFloatingLabel1Help" class="form-control datepicker" id="date" placeholder="" type="text">
+                        </div>
+                        <ul class="nav nav-pills">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="step2.html#morning">Morning</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="step2.html#arvo">Arvo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="step2.html#late">Late</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="index.html" class="stepper done">
+                        <div class="stepper-icon"></div>
+                        <span class="stepper-text">Products</span>
+                    </a>
+                    <a href="step2.html" class="stepper done">
+                        <div class="stepper-icon"></div>
+                        <span class="stepper-text">Times</span>
+                    </a>
+                    <a href="step3.html" class="stepper active">
+                        <div class="stepper-icon"></div>
+                        <span class="stepper-text">Details</span>
+                    </a>
+                    <a href="step4.html" class="stepper">
+                        <div class="stepper-icon"></div>
+                        <span class="stepper-text">Add-Ons</span>
+                    </a>
+                    <a href="step5.html" class="stepper">
+                        <div class="stepper-icon"></div>
+                        <span class="stepper-text">Checkout</span>
+                    </a>
+                </nav>
+
+                <h1 class="text-center">Party Details</h1>
+                <p class="text-center">Please fill out the details of your party below, so we can send you a link to our online waiver to shorten your check-in time.</p>
+                <div class="cl_products__party">
+                    <div class="card">
+                        <div class="card-header">
+                            <strong>John</strong>
+                            <br>Adult - Reef Lefts
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <div class="floating-label">
+                                    <label for="exampleFloatingLabel1">First Name *</label>
+                                    <input aria-describedby="exampleFloatingLabel1Help" class="form-control" id="exampleFloatingLabel1" placeholder="" type="text">
+                                </div>
+                                <div class="floating-label">
+                                    <label for="exampleFloatingLabel1">Last Name *</label>
+                                    <input aria-describedby="exampleFloatingLabel1Help" class="form-control" id="exampleFloatingLabel1" placeholder="" type="text">
+                                </div>
+                                <div class="floating-label">
+                                    <label for="exampleFloatingLabel1">Email</label>
+                                    <input aria-describedby="exampleFloatingLabel1Help" class="form-control" id="exampleFloatingLabel1" placeholder="" type="text">
+                                </div>
+                                <div class="flex flex-center">
+                                    or
+                                </div>
+                                <div class="floating-label">
+                                    <label for="exampleFloatingLabel1">Contact Phone</label>
+                                    <input aria-describedby="exampleFloatingLabel1Help" class="form-control" id="exampleFloatingLabel1" placeholder="" type="text">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <strong>Jane</strong>
+                            <br>Adult - Peak
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <div class="floating-label">
+                                    <label for="exampleFloatingLabel1">First Name *</label>
+                                    <input aria-describedby="exampleFloatingLabel1Help" class="form-control" id="exampleFloatingLabel1" placeholder="" type="text">
+                                </div>
+                                <div class="floating-label">
+                                    <label for="exampleFloatingLabel1">Last Name *</label>
+                                    <input aria-describedby="exampleFloatingLabel1Help" class="form-control" id="exampleFloatingLabel1" placeholder="" type="text">
+                                </div>
+                                <div class="floating-label">
+                                    <label for="exampleFloatingLabel1">Email</label>
+                                    <input aria-describedby="exampleFloatingLabel1Help" class="form-control" id="exampleFloatingLabel1" placeholder="" type="text">
+                                </div>
+                                <div class="flex flex-center">
+                                    or
+                                </div>
+                                <div class="floating-label">
+                                    <label for="exampleFloatingLabel1">Contact Phone</label>
+                                    <input aria-describedby="exampleFloatingLabel1Help" class="form-control" id="exampleFloatingLabel1" placeholder="" type="text">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <strong>Jimmy</strong>
+                            <br>Child - Peak
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <div class="floating-label">
+                                    <label for="exampleFloatingLabel1">First Name *</label>
+                                    <input aria-describedby="exampleFloatingLabel1Help" class="form-control" id="exampleFloatingLabel1" placeholder="" type="text">
+                                </div>
+                                <div class="floating-label">
+                                    <label for="exampleFloatingLabel1">Last Name *</label>
+                                    <input aria-describedby="exampleFloatingLabel1Help" class="form-control" id="exampleFloatingLabel1" placeholder="" type="text">
+                                </div>
+                                <div class="floating-label">
+                                    <label for="exampleFloatingLabel1">Parent/Guardian Email</label>
+                                    <input aria-describedby="exampleFloatingLabel1Help" class="form-control" id="exampleFloatingLabel1" placeholder="" type="text">
+                                </div>
+                                <div class="flex flex-center">
+                                    or
+                                </div>
+                                <div class="floating-label">
+                                    <label for="exampleFloatingLabel1">Parent/Guardian Phone</label>
+                                    <input aria-describedby="exampleFloatingLabel1Help" class="form-control" id="exampleFloatingLabel1" placeholder="" type="text">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <strong>Josie</strong>
+                            <br>Child - Lesson
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <div class="floating-label">
+                                    <label for="exampleFloatingLabel1">First Name *</label>
+                                    <input aria-describedby="exampleFloatingLabel1Help" class="form-control" id="exampleFloatingLabel1" placeholder="" type="text">
+                                </div>
+                                <div class="floating-label">
+                                    <label for="exampleFloatingLabel1">Last Name *</label>
+                                    <input aria-describedby="exampleFloatingLabel1Help" class="form-control" id="exampleFloatingLabel1" placeholder="" type="text">
+                                </div>
+                                <div class="floating-label">
+                                    <label for="exampleFloatingLabel1">Parent/Guardian Email</label>
+                                    <input aria-describedby="exampleFloatingLabel1Help" class="form-control" id="exampleFloatingLabel1" placeholder="" type="text">
+                                </div>
+                                <div class="flex flex-center">
+                                    or
+                                </div>
+                                <div class="floating-label">
+                                    <label for="exampleFloatingLabel1">Parent/Guardian Phone</label>
+                                    <input aria-describedby="exampleFloatingLabel1Help" class="form-control" id="exampleFloatingLabel1" placeholder="" type="text">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="cl_book__actions">
+                    <a href="step2.html" class="btn btn-outline-primary btn-lg"><i class="fa fa-chevron-circle-left"></i> back</a>
+                    <a href="step4.html" class="btn btn-primary btn-lg">continue <i class="fa fa-chevron-circle-right"></i></a>
+                </div>
+
+            </div>
+        </main>
+        <aside id="cl_cart">
+            <button class="close btn-light btn-float btn-sm" type="button"><i class="material-icons">close</i></button>
+            <div class="cl_cart__items">
+                <h2 class="text-center">Cart</h2>
+                <div class="card">
+                    <div class="card-header">
+                        <div><strong>John</strong></div>
+                        <div>Adult - Reef Lefts</div>
+                    </div>
+                    <div class="card-body">
+                        <div>
+                            <strong>Session: 2 pm</strong>
+                        </div>
+                        <div>
+                            <strong>$60.00</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <div><strong>Jane</strong></div>
+                        <div>Adult - Peak</div>
+                    </div>
+                    <div class="card-body">
+                        <div>
+                            <strong>Session: 2 pm</strong>
+                        </div>
+                        <div>
+                            <strong>$60.00</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <div><strong>Jimmy</strong></div>
+                        <div>Child - Peak</div>
+                    </div>
+                    <div class="card-body">
+                            <div>
+                                <strong>Session: 2 pm</strong>
+                            </div>
+                            <div>
+                                <strong>$51.00</strong>
+                            </div>
+                        </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <div><strong>Josie</strong></div>
+                        <div>Child - Group Beginner</div>
+                    </div>
+                    <div class="card-body">
+                        <div>
+                            <strong>Lesson: 1:30 pm</strong>
+                        </div>
+                        <div>
+                            <strong>$65.00</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="cl_cart__total row">
+                    <div class="col-6">
+                        Total
+                    </div>
+                    <div class="col-6 text-right">
+                        $296.00
+                    </div>
+                </div>
+            </div>
+            <div class="cl_cart__help">
+                <a href="#"><i class="fa fa-question-circle"></i> Booking Help &amp; FAQ</a>
+            </div>
+        </aside>
+    </section>
+
+
+    
+    <!-- Login Modal -->
+    <div class="modal fade" id="urbn_login-modal" tabindex="-1" role="dialog" aria-labelledby="urbn-modal-title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="urbn-modal-title">Member Login</h5>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <div class="floating-label">
+                                        <label for="loginEmail">Email</label>
+                                        <input aria-describedby="loginEmailHelp" class="form-control" id="loginEmail" placeholder="Enter email" type="text">
+                                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                    </div>                                    
+                                </div>
+                                <div class="form-group">
+                                    <div class="floating-label">
+                                        <label for="loginPassword">Password</label>
+                                        <input aria-describedby="loginEmailHelp" class="form-control" id="loginPassword" placeholder="Enter Password" type="text">
+                                    </div>
+                                </div>
+                                <!--<div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">remember me</label>
+                                </div>-->
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="urbn-modal-title">Sign Up</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Sign up with Urbnsurf today to experience all the benefits of our Membership programs, including free sessions and discount on food and hire.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="text-right">
+                            <form action="../member-portal/index.html">
+                                <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Forgot Password?</button>
+                                <button type="submit" class="btn btn-primary">Login</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="text-right">
+                            <button type="button" class="btn btn-primary">Sign Up Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="../js/external/jquery-3.3.1.slim.min.js"></script>
+    <script src="../js/external/popper.min.js"></script>
+    <script src="../js/external/bootstrap.min.js"></script>
+
+    <script src="../js/material/material.min.js"></script>
+
+    <!-- Urbnsurf -->
+    <script src="../js/urbnsurf/urbn_template.js"></script>
+  </body>
+</html>
